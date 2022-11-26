@@ -80,6 +80,7 @@ const authController = {
     } catch (err) {
       next(err);
     }
+    
     /*  bcrypt.compare(password, hash) */
   },
 };
